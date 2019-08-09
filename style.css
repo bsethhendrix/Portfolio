@@ -1,0 +1,166 @@
+::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	background-color: #eeeeee;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: bold;
+}
+
+/* Navbar Section */
+
+.navbar {
+	background-color: #eeeeee;
+}
+
+.navbar-brand {
+	color: #000000;
+	font-weight: 700;
+}
+
+.navbar-nav .nav-item {
+	font-weight: 700;
+	margin: 0 2vw;
+}
+
+/* Landing Page Section */
+
+#home {
+	background-image: url(/Public/Single_Page_Site/imgs/home-dark2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#home-text {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: auto;
+	color: #d6d6d6;
+}
+
+#home-text h1 {
+	font-size: 5rem;
+}
+
+#name {
+	color: #41c8f1;
+}
+
+#home-text p {
+	font-size: 1.75rem;
+}
+
+#arrow {
+	color: #ce6726;
+	font-size: 6vw;
+	text-align: center;
+	flex-direction: column;
+	margin-top: auto;
+}
+
+/* About Me Section */
+
+#about p {
+	font-size: 1.75em;
+}
+
+#about p a:hover {
+	text-decoration: none;
+	color: #41c8f1;
+}
+
+#about h2 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#my-tech {
+	margin-top: 15vh;
+	margin-bottom: 10vh;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.carousel {
+	width: 150px;
+	height: 150px;
+	display: flex;
+}
+
+/* My Work Section */
+
+#work-bg {
+	background-color: #999999;
+}
+
+div.card.m-3 {
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+	text-align: center;
+}
+
+div.card img {
+	height: 165px;
+}
+
+.card-title a {
+	color: black;
+}
+
+.card-title a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.card-body span img {
+	height: 50px;
+	width: 50px;
+}
+
+/* Contact Section */
+
+/* Media Queries */
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	#home-text h1 {
+		font-size: 4rem;
+		margin: 6rem auto 2rem auto !important;
+	}
+	a#arrow {
+		margin-bottom: 5%;
+	}
+}
+
+@media (max-width: 439px) {
+	#my-tech #my-tech-h2 {
+		font-size: 1.25em;
+	}
+}
+
+@media (max-width: 576px) {
+	a#arrow {
+		font-size: 5em;
+	}
+}
+
+@media (max-width: 992px) {
+	#arrow {
+		font-size: 8vw;
+	}
+	#about p {
+		font-size: 1.75em;
+	}
+	#my-tech h2 {
+		font-size: 1.75em;
+	}
+}
