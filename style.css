@@ -131,6 +131,16 @@ div.card img {
 
 /* Media Queries */
 
+@media (min-resolution: 500dpi) {
+	#home-text h1 {
+		font-size: 4rem;
+		margin: 12rem auto 2rem auto !important;
+	}
+	a#arrow {
+		margin-bottom: 15%;
+	}
+}
+
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 	#home-text h1 {
 		font-size: 4rem;
