@@ -131,13 +131,13 @@ div.card img {
 
 /* Media Queries */
 
-@media (min-resolution: 500dpi) {
+@media (min-resolution: 470dpi) {
 	#home-text h1 {
 		font-size: 4rem;
 		margin: 12rem auto 2rem auto !important;
 	}
 	a#arrow {
-		margin-bottom: 15%;
+		margin-bottom: 15% !important;
 	}
 }
 
